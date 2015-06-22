@@ -11,16 +11,21 @@ Demo version (not for professional use).
 
 #####MQAPI instruction:
 
-1. Use console command './bin/start_rabbitmq --workers=5' to start RabbitMQ workers.
-Use option --workers to select how much workers will work on conversion asynchronously, default is 3 workers.
+1. Use console command './bin/start_rabbitmq --workers=5' to start RabbitMQ workers.  
+Use option --workers to select how much workers will work on conversion asynchronously, default is 3 workers.  
 Also one worker for client RPC will always starts automatically.  
+
 >Example of console command:
 >./bin/start_rabbitmq --workers=5
+
 2. Use status page with session Id to verify conversion progress.
+
 >Example of console command:
 >http://your_host/status/yourSessionId1234567
-3. If your file conversion is ready, you also can download it at status page.
-A download link will appear when conversion progress is finished.
+
+3. If your file conversion is ready, you also can download it at status page.  
+A download link will appear when conversion progress is finished.  
+
 >Example of console command:
 >http://your-host/status/yourSessionId1234567
 
