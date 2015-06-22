@@ -1,0 +1,11 @@
+parameters:
+#    parameter_name: value
+
+services:
+    convert_audio_file_service:
+        class: AppBundle\Consumer\ConvertAudioFileConsumer
+        arguments: ["@dubture_ffmpeg.ffmpeg"]
+
+    rpc_service:
+        class: AppBundle\Consumer\RpcConsumer
+        arguments: ["%path_to_save_files%"]
