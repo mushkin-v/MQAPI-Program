@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mushkin-v/MQAPI-Program.svg?branch=develop)](https://travis-ci.org/mushkin-v/MQAPI-Program)
+
 #MQAPI
 ---
 It is a demo version of the MQAPI program which converts audio files.
